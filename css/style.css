@@ -1,1 +1,41 @@
+body{
+    padding-right: 6em;
+    padding-left: 6em;
+    padding-bottom: 3em;
+}
 
+h1{
+    text-align: center;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+h2{
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.indice{
+    border-style: dashed;
+    border-color: black;
+    padding: 15px;
+}
+
+.indice li{
+    list-style-type:none;
+    text-align: center;
+}
+
+.indice li a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.datos {
+    padding: 30 px;
+}
+
+.datos div{
+    text-align: center;
+    font-size: 20px;
+}
