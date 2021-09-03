@@ -1,0 +1,41 @@
+{
+	"pais":{
+		"@nombre":"El Salvador",
+		"@moneda":"dolar estadounidense",
+		"@codigoarea":"503",
+		"departamento":[
+			{
+				"@id":"1",
+				"@nombre":"San Salvador",
+				"@codigo":"SV-SS",
+				"cabecera":"San Salvador",
+				"habitantes":"1,700,000",
+				"altura":"545 MSNM",
+				"areaterritorial":"72.25 km cuadrados"
+			},
+			{
+				"@id":"2",
+				"@nombre":"La Libertad",
+				"@codigo":"SV-LI",
+				"cabecera":"Santa Tecla",
+				"habitantes":"843,500",
+				"altura":"493 MSNM",
+				"areaterritorial":"1653 km cuadrados"
+			},
+			{
+				"@id":"3",
+				"@nombre":"San Miguel",
+				"@codigo":"SV-SM",
+				"cabecera":"San Miguel",
+				"habitantes":"478 792",
+				"altura":"336 MSNM",
+				"areaterritorial":"2077 MSNM"
+			}
+		],
+		"idiomas":{
+			"oficial":"Español",
+			"autoctono":"Pipil",
+			"segundo":"Ingles"
+		}
+	}
+}
