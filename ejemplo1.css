@@ -1,0 +1,8 @@
+/* ejemplo1.css   VM19003  */
+
+fichero {background-color:#9DB9AE;}
+
+ficha {background-color:#5F261D; display:block; padding-top:25px; padding-bottom:25px; margin:50px; text-align:center;} 
+nombre {color:white; display:inline;} 
+apellido {color:yellow; display:inline;}
+direccion {color:yellow;font-size:1cm; display:inline;}

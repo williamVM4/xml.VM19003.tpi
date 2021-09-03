@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!-- ejemplo1.xml  VM19003 -->
+<?xml-stylesheet type="text/css" href="ejercicio1b.css"?>
+<fichero>
+<ficha id="1" fechaingreso="1/11/2012">
+<nombre>Antonio</nombre>
+<apellido>Barbero</apellido>
+<direccion>Calle de Los Andes, 45</direccion>
+</ficha>
+
+<!-- agregue una segunda ficha con sus respectivos datos, PERO a esta segunda ficha agregue además etiqueta(s) y/o atributo(s) para teléfono(s), email y url website personal -->
+<ficha id="2" fechaingreso="20/06/2021">
+<nombre>William</nombre>
+<apellido>Vasquez</apellido>
+<direccion>San Martin</direccion>
+<telefono>70803109</telefono>
+<email>vm19003@ues.edu.sv</email>
+<url>xml.vm19003.tpi</url>
+</ficha>
+
+<!--agregue además a esta tercera ficha; etiqueta(s) y atributo(s) para documentación (dui, isss, afp).-->
+<ficha id="3" fechaingreso="05/08/2020">
+<nombre>Cristiano</nombre>
+<apellido>Ronaldo</apellido>
+<direccion>Portugal</direccion>
+<telefono>45464544</telefono>
+<email>cr7@gmail.com</email>
+<url>xml.vm19003.tpi</url>
+<dui>06060385-9</dui>
+<isss>123456</isss>
+<afp>987654</afp>
+</ficha>
+</fichero>

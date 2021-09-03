@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml-stylesheet type="text/css" href="ejercicio2a.css"?>
+<!-- ejemplo2.xml  VM19003-->
+<pais nombre="El Salvador" moneda="dolar estadounidense" codigoarea="503">
+<departamento id="1" nombre="San Salvador">
+<cabecera>San Salvador</cabecera>
+<habitantes>1,700,000</habitantes>
+<altura>545 MSNM</altura>
+<areaterritorial>72.25 km cuadrados</areaterritorial>
+</departamento>
+
+<departamento id="2" nombre="La Libertad">
+<cabecera>Santa Tecla</cabecera>
+<habitantes>843,500</habitantes>
+<altura>493 MSNM</altura>
+<areaterritorial>1653 km cuadrados</areaterritorial>
+</departamento>
+
+<idiomas>
+<oficial>Español</oficial>
+<autoctono>Pipil</autoctono>
+<segundo>Ingles</segundo>
+</idiomas>
+</pais>
+<!--agregue un segundo departamento con sus respectivos datos. Agregue a este documento etiqueta(s) y/o atributo(s) para monedas, código telefónico de área, idiomas (oficial, autóctono, segundo idioma) área territorial.-->

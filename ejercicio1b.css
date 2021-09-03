@@ -1,0 +1,72 @@
+/*ejercicio 1b VM19003 */
+fichero {
+	background: #B8DCE8;
+	margin: 50px;
+}
+ficha {
+	background: #EE8164; 
+	display: block;
+	padding-top:25px;
+	padding-bottom:25px;
+	margin: 25px;
+	text-align:center;
+}
+ficha[id]::before{
+	content:"Id: "attr(id)" - Fecha de ingreso: "attr(fechaingreso);
+	color: 000000;
+	display: block;
+}
+nombre {
+	color: #222C4A; 
+	font-weight: bold; 
+	display: inline; 
+	font-size: 0.75cm; 
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+apellido {
+	color: #222C4A; 
+	font-weight: bold; 
+	display: inline; 
+	font-size: 0.75cm; 
+	font-family: Arial, Helvetica, sans-serif;
+}
+	
+direccion {
+	color: #000000; 
+	font-style: italic; 
+	display: inline;
+}
+
+telefono {
+	color: #000000; 
+	font-style:italic; 
+	display: inline;
+}
+
+email {
+	color: #000000; 
+	font-style:oblique; 
+	display: inline;
+}
+
+url {
+	color: #000000; 
+	font-style:oblique; 
+	display: inline;
+}
+
+dui {
+	color: #000000; 
+	display: inline;
+}
+
+isss {
+	color: #000000; 
+	display: inline;
+}
+
+afp {
+	color: #000000; 
+	display: inline;
+}

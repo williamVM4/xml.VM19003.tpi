@@ -1,0 +1,117 @@
+/* ejercicio2a VM19003 */
+pais {
+	background-color: #E8C68C;
+	margin:50px;
+}
+
+pais[nombre]::before{
+	content: attr(nombre)". Moneda: "attr(moneda)" Codigo de area: "attr(codigoarea);
+	color:#2E1C0C;
+	display:block;
+	font-size:1cm;
+	text-align: center;
+}
+
+departamento {
+	background-color: #9FC9ED; 
+	display:block;
+	text-align:center;
+	padding-top:25px;
+	padding-bottom:50px;
+	margin:20px;
+}
+	
+departamento[nombre]::before{
+		content: attr(nombre);
+		color: black;
+		font-family: Arial, Helvetica, sans-serif;
+		font-weight: bold;
+		display: block;
+		font-size:0.8cm;
+		text-align: center;
+		padding-bottom:50px;
+		padding-top:25px;
+}
+cabecera {
+	color: yellow; 
+	display: inline;
+	padding-top:20px;
+	padding-right:75px;
+	padding-bottom:20px;
+	padding-left:75px;
+	background-color: #245A87;
+	margin:10px;
+}
+habitantes {
+	color: yellow; 
+	display: inline;
+	padding-top:20px;
+	padding-right:75px;
+	padding-bottom:20px;
+	padding-left:75px;
+	background-color: #245A87;
+	margin:10px;
+}
+altura {
+	color: yellow; 
+	display: inline;
+	padding-top:20px;
+	padding-right:75px;
+	padding-bottom:20px;
+	padding-left:75px;
+	background-color: #245A87;
+	margin:10px;
+}
+areaterritorial {
+	color: yellow; 
+	display: inline;
+	padding-top:20px;
+	padding-right:75px;
+	padding-bottom:20px;
+	padding-left:75px;
+	background-color: #245A87;
+	margin:10px;
+}
+
+
+idiomas{
+	background-color: #E8C68C; 
+	display: block; 
+	margin:50px;
+	border-style: dashed;
+	border-color: black;
+	padding: 50px;
+}
+oficial{
+	color: yellow; 
+	display: inline;
+	text-align:center;
+	padding-top:20px;
+	padding-right:100px;
+	padding-bottom:20px;
+	padding-left:100px;
+	background-color: #245A87;
+	margin:50px;
+}
+autoctono{
+	color: yellow; 
+	display: inline;
+	text-align:center;
+	padding-top:20px;
+	padding-right:100px;
+	padding-bottom:20px;
+	padding-left:100px;
+	background-color: #245A87;
+	margin:50px;
+}
+segundo{
+	color: yellow; 
+	display: inline;
+	text-align:center;
+	padding-top:20px;
+	padding-right:100px;
+	padding-bottom:20px;
+	padding-left:100px;
+	background-color: #245A87;
+	margin:50px;
+}

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml-stylesheet type="text/css" href="ejercicio2b.css"?>
+<!-- ejemplo2.xml  VM19003 -->
+<pais nombre="El Salvador" moneda="dolar estadounidense" codigoarea="503">
+<idioma tipo="oficial">Español</idioma>
+<idioma tipo="autoctono">Pipil</idioma>
+<idioma tipo="segundo">Ingles</idioma>
+
+<departamento id="1" nombre="San Salvador" codigo="SV-SS">
+<cabecera>San Salvador</cabecera>
+<habitantes>1,700,000</habitantes>
+<altura>545 MSNM</altura>
+<areaterritorial>72.25 km cuadrados</areaterritorial>
+</departamento>
+
+<departamento id="2" nombre="La Libertad" codigo="SV-LI">
+<cabecera>Santa Tecla</cabecera>
+<habitantes>843,500</habitantes>
+<altura>493 MSNM</altura>
+<areaterritorial>1653 km cuadrados</areaterritorial>
+</departamento>
+
+<departamento id="3" nombre="San Miguel" codigo="SV-SM">
+<cabecera>San Miguel</cabecera>
+<habitantes>478 792</habitantes>
+<altura>336 MSNM</altura>
+<areaterritorial>2077 MSNM</areaterritorial>
+</departamento>
+
+</pais>
+<!--agregue un tercer departamento.-->

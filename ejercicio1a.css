@@ -1,0 +1,29 @@
+/* ejercicio1a.css   VM19003  */
+
+fichero {
+	background-color:#A9560C;
+	margin: 50px;
+}
+
+ficha {
+	background-color:#0A3A46;
+	display:block;
+	text-align:center;
+	padding-top:25px;
+	padding-bottom:25px;
+	margin:10px;
+	border-style:dashed;
+	border-color:green;
+} 
+
+nombre {color:yellow;display:inline;} 
+apellido {color:yellow; display:inline;}
+direccion {color:yellow;font-size:1cm; display:inline; font-style:oblique;}
+telefono {color: yellow;display:inline; font-weight:bold;}
+email {color: yellow;display:inline; font-family: "Arial", Helvetica, sans-serif;}
+url {color: yellow;display:inline;}
+ficha[id]::before{
+	content: attr(id)" - " attr(fechaingreso);
+	color: yellow;
+	display: inline;
+}
